@@ -16,7 +16,7 @@ var thunder1,thunder2 ,thunderImg1 , thunderImg2 , thunderImg3;
 var thunderS, rainS;
 function preload(){
   // load bg image
-  backgroundImg = loadImage("Image/bg.jpg");
+  backgroundImg = loadImage("Background.jpg");
   // load both thunder images
     thunder1 = loadImage("Image/i1 (1).png");
     thunder2 = loadImage("Image/i1 (2).png");
