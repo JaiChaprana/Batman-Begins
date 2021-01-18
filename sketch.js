@@ -50,7 +50,7 @@ function draw(){
       raindrops.push(raindrop);
 	  
     }
-	if(frameCount%30 ==0){
+	if(frameCount%80 ==0){
 	rainS.play();
 	}
 // display umbrella img
