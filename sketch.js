@@ -51,7 +51,7 @@ function draw(){
 	  
     }
 	rainS.play();
-	thunderS.play();
+	
 // display umbrella img
     img.display();
 // display raindrops
