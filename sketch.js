@@ -48,8 +48,10 @@ function draw(){
     if(frameCount % 1 === 0){
       var raindrop = new Drop(random(0, windowWidth), -100,10);
       raindrops.push(raindrop);
-	  rainS.play();
+	  
     }
+	rainS.play();
+	thunderS.play();
 // display umbrella img
     img.display();
 // display raindrops
@@ -61,7 +63,7 @@ function draw(){
   // By Using Switch case method
     if(frameCount % 10 === 0) {
     var rand = Math.round(random(1,2));
-	thunderS.play();
+	
       switch(rand) {
         case 1:thunderImg1.addImage(thunder1);
                 break;
